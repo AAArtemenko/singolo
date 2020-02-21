@@ -69,10 +69,6 @@ a {
     background-color: #323746;
 }
 
-.slider {    
-    height: 600px;
-}
-
 .wrapper {
     display: flex;
     flex-direction: row;
@@ -127,4 +123,81 @@ a {
 .line-main {
     height: 6px;
     background-color: #ea676b;
+}
+
+.services {
+    height: 496px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+}
+
+.services-about {
+    margin: 35px 0 0 40px;
+}
+
+.services-about-header {
+    font-family: "Lato-Black", sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.2 px;
+    color: #666d89;
+    margin-bottom: 20px;
+}
+
+.services-about-p {
+    font-family: "Lato-Light", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.2 px;
+    word-spacing: 1px;
+    line-height: 1.6;
+    word-wrap: break-word;  
+    color: #767e9e;
+    margin: 0;
+}
+
+.services-opportunities {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+    margin-left: 41px;
+}
+
+.services-opportunities-col {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.services-opportunities-col>div {
+    display: flex;
+    flex-direction: row;
+}
+
+.services-opportunities-col>div>img {
+    height: 59px;
+    width: 59px;
+    margin-right: 20px;
+}
+
+.services-opportunities>div>div>div>h3 {
+    font-family: "Lato-Black", sans-serif;
+    font-size: 18px;
+    color: #666d89;
+    margin: 0;
+}
+.services-opportunities>div>div>div>p {
+    font-family:"Lato-Regular", sans-serif;
+    font-size: 12px;
+    word-spacing: 5px;
+    word-wrap: break-word;
+    width: 220px;
+    color: #767e9e;
+}
+
+.line-services {
+    height: 6px;
+    background-color: #ffffff;
 }

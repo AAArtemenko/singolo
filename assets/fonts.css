@@ -7,3 +7,13 @@
     src: url("./fonts/Lato/Lato-Bold.ttf");
     font-family: "Lato-Bold";
 }
+
+@font-face {    
+    src: url("./fonts/Lato/Lato-Black.ttf");
+    font-family: "Lato-Black";
+}
+
+@font-face {    
+    src: url("./fonts/Lato/Lato-Light.ttf");
+    font-family: "Lato-Light";
+}
