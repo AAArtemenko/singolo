@@ -26,6 +26,7 @@ a {
         color: #ffffff;
         margin-left: 40px;
     }
+
     .star {
         font-size: 25px;
         color: #f06c64;
@@ -102,14 +103,33 @@ a {
     justify-content: flex-start;
 }
 
-.vertical_phone_source {
-    width: 240px;
-    height: 483px;
+@media screen and (min-width: 900px) {
+    .vertical_phone_source {
+        width: 240px;
+        height: 483px;
+    }
+
+    .horizontal_phone_source {
+        width: 483px;
+        height: 240px;
+    }
 }
 
-.horizontal_phone_source {
-    width: 483px;
-    height: 240px;
+@media screen and (max-width: 900px) {
+    .vertical_phone_source {
+        width: auto;
+        height: auto;
+    }
+
+    .horizontal_phone_source {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .vertical_phone_source {
+        display: none;
+    }
 }
 
 .vertical-phone {
@@ -140,7 +160,7 @@ a {
 .services-about-header {
     font-family: "Lato-Black", sans-serif;
     font-size: 30px;
-    letter-spacing: 0.2 px;
+    word-spacing: -1px;
     color: #666d89;
     margin-bottom: 20px;
 }
@@ -158,10 +178,9 @@ a {
 
 .services-opportunities {
     display: flex;
-    flex-direction: row;
-    margin-left: 40px;
-    flex-wrap: wrap;
-    margin-bottom: 45px;
+    flex-flow: row wrap;    
+    justify-content: space-around;
+    margin-bottom: 15px;
     margin-left: 41px;
 }
 
@@ -176,10 +195,23 @@ a {
     flex-direction: row;
 }
 
+.services-design, .services-ideas, .services-love {
+    margin-top: 14px;
+}
+
+.services-layout, .services-support, .services-star {
+    margin-top: 33px;
+}
+
 .services-opportunities-col>div>img {
     height: 59px;
     width: 59px;
     margin-right: 20px;
+    margin-top: 3px;
+}
+
+.col-3>div>img {
+    margin-right: 22px;
 }
 
 .services-opportunities>div>div>div>h3 {
@@ -193,8 +225,13 @@ a {
     font-size: 12px;
     word-spacing: 5px;
     word-wrap: break-word;
+    line-height: 1.7;
     width: 220px;
     color: #767e9e;
+    margin-top: 10px;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .line-services {
