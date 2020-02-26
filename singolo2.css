@@ -1,0 +1,35 @@
+@import "./assets/fonts.css";
+
+.portfolio {
+    height: 864px;
+    background-color: #2d303a;
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio_head {
+    font-family: "Lato-Black", sans-serif;
+    font-size: 30px;
+    color: #666d89;
+}
+
+.portfolio_paragraph {
+    font-family: "Lato-Light", sans-serif;
+    font-size: 18px;
+    color: #767e9e;
+}
+
+.line-portfolio {
+    height: 6px;
+    background-color: #323746;
+}
+
+.about_us {
+    height: 724px;
+    background-color: #f2f2f2;
+}
+
+.line-about_us {
+    height: 6px;
+    background-color: #ffffff;
+}
