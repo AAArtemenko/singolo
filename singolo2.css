@@ -1,10 +1,24 @@
 @import "./assets/fonts.css";
 
+.content {
+    width: 1020px;
+    margin: 0 auto;
+}
+
 .portfolio {
     height: 864px;
     background-color: #2d303a;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.portfolio-text {
+    margin-top: 60px;
+    margin-left: 40px;    
+}
+
+.portfolio_images_buttons {
+    margin: -2px 0 19px 41px;
 }
 
 .portfolio_head {
@@ -17,6 +31,52 @@
     font-family: "Lato-Light", sans-serif;
     font-size: 18px;
     color: #767e9e;
+}
+
+.portfolio_images {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio_images_buttons>button {
+    background-color: #2d303a;
+	border-radius: 5px;
+	border: 1px solid #666d89;
+	display: inline-block;
+	cursor: pointer;
+	color:#666d89;
+	font-family: "Lato-Regular", sans-serif;
+	font-size: 12px;
+    padding: 3px 6px;
+    margin-right: 6px;
+	text-decoration: none;
+}
+
+.portfolio_images_buttons>button:last-child {
+    margin-right: 0;
+    margin-left: -1px;
+}
+
+.portfolio_images_buttons>button:hover {
+    border:1px solid #dedede;
+    color:#dedede;
+}
+
+.portfolio_images_view {
+    display: grid;
+    grid-template: repeat(3,fit-content(220px)) / repeat(4,fit-content(191px));
+    justify-content: center;
+    justify-items: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 16px; 
+}
+
+.portfolio_images_view>figure {
+    margin: 0;
+}
+
+.portfolio_images_view>figure:nth-child(n+13) {
+    display: none;
 }
 
 .line-portfolio {
