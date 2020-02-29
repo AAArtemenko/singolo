@@ -87,6 +87,94 @@
 .about_us {
     height: 724px;
     background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+
+.about_text {
+    margin: 60px 40px 0;
+}
+
+.about_head, .about_paragraph {
+    margin: 0;
+}
+
+.about_head {
+    font-family: "Lato-Black", sans-serif;
+    font-size: 30px;
+    color: #666d89;
+}
+
+.about_paragraph {
+    font-family: "Lato-Light", sans-serif;
+    font-size: 18px;
+    color: #767e9e;
+    word-spacing: 1px;
+    line-height: 1.7;
+    margin-top: 19px;
+}
+ 
+.about_persons {
+    margin: 44px 40px 0;
+}
+
+.about_persons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about_column {
+    display: flex;
+    flex-direction: column;    
+    width: 300px;    
+}
+
+.person_photo {
+    width: 300px;
+    height: 300px;
+}
+
+.about_information {
+    margin-top: 16px;
+    margin-left: -1px;
+}
+
+.person_name, .person_about {
+    margin: 0;
+}
+
+.person_name {
+    font-family: "Lato-Black", sans-serif;
+    font-size: 18px;    
+    white-space: nowrap;
+    word-spacing: -1px;
+    color: #666d89;
+    overflow: hidden;
+}
+
+.person_about {
+    font-family: "Lato-Regular", sans-serif;
+    font-size: 12px;
+    color: #767e9e;
+    margin-top: 9px;
+    word-spacing: 1px;
+    line-height: 1.75;
+}
+
+.about_social_media {
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+}
+
+.about_social_media>a {
+    margin-right: 8px;
+}
+
+.about_social_media>a:hover {
+    transform: scale(1.2);
 }
 
 .line-about_us {
