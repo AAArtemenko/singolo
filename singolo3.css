@@ -1,0 +1,70 @@
+@import "./assets/fonts.css";
+
+.content {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.quote {
+    background-color: #f06c64;
+    height: 648px;
+    padding: 0 40px;
+}
+
+.quote_text {
+    padding-top: 60px;
+}
+
+.quote_head, .quote_paragraph {
+    margin: 0;
+}
+
+.quote_head {
+    font-family: "Lato-Black", sans-serif;
+    font-size: 30px;
+    color: #f0d8d9;
+}
+
+.quote_paragraph {
+    font-family: "Lato-Light", sans-serif;
+    font-size: 18px;
+    color: #f0d8d9;
+    word-wrap: break-word;
+    word-spacing: 1px;
+    line-height: 1.75;
+    margin-top: 18px;
+}
+
+.line_quote {
+    height: 6px;
+    background-color: #ea676b;
+}
+
+.footer {
+    height: 76px;
+    background-color: #2d303a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 0 40px;  
+}
+
+.footer_text {
+    font-family: "Lato-Regular", sans-serif;
+    font-size: 12px;    
+    color: #666d89;
+    margin: 0 0 0 3px;
+}
+
+.footer_social_media {
+    margin-top: 2px;
+}
+
+.footer_social_media>a {
+    margin-left: 4px;
+}
+
+.footer_social_media>a>img:hover {
+    transform: scale(1.2);
+}
