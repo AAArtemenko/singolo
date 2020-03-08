@@ -77,7 +77,7 @@ a {
     background-color: #323746;
 }
 
-.wrapper {
+.slider {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -153,7 +153,7 @@ a {
 }
 
 .services {
-    height: 496px;
+    height: 494px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -161,7 +161,7 @@ a {
 }
 
 .services-about {
-    margin: 35px 0 0 40px;
+    margin: 60px 0 0 40px;
 }
 
 .services-about-header {
@@ -175,7 +175,6 @@ a {
 .services-about-p {
     font-family: "Lato-Light", sans-serif;
     font-size: 18px;
-    letter-spacing: 0.2 px;
     word-spacing: 1px;
     line-height: 1.6;
     word-wrap: break-word;  
@@ -186,15 +185,19 @@ a {
 .services-opportunities {
     display: flex;
     flex-flow: row wrap;    
-    justify-content: space-around;
-    margin-bottom: 15px;
-    margin-left: 41px;
+    justify-content: flex-start;
+    margin-top: 31px;
+    margin-left: 40px;
 }
 
 .services-opportunities-col {
     display: flex;
     flex-direction: column;
-    margin-right: 20px;
+    margin-right: 21px;
+}
+
+.col-3 {
+    margin-right: 0;
 }
 
 .services-opportunities-col>div {
@@ -207,7 +210,7 @@ a {
 }
 
 .services-layout, .services-support, .services-star {
-    margin-top: 33px;
+    margin-top: 38px;
 }
 
 .services-opportunities-col>div>img {
@@ -234,6 +237,7 @@ a {
     word-wrap: break-word;
     line-height: 1.7;
     width: 220px;
+    height: 55px;
     color: #767e9e;
     margin-top: 10px;
     margin-bottom: 0;
@@ -244,11 +248,6 @@ a {
 .line-services {
     height: 6px;
     background-color: #ffffff;
-}
-
-.content {
-    width: 1020px;
-    margin: 0 auto;
 }
 
 .portfolio {
@@ -264,7 +263,7 @@ a {
 }
 
 .portfolio_images_buttons {
-    margin: -2px 0 19px 41px;
+    margin: -3px 0 19px 41px;
 }
 
 .portfolio_head {
@@ -331,7 +330,7 @@ a {
 }
 
 .about_us {
-    height: 724px;
+    height: 727px;
     background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
@@ -361,7 +360,7 @@ a {
 }
  
 .about_persons {
-    margin: 44px 40px 0;
+    margin: 43px 40px 0;
 }
 
 .about_persons {
