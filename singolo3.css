@@ -2,17 +2,25 @@
 
 .content {
     width: 1020px;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 
-.quote {
+.quote_content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.quote {    
     background-color: #f06c64;
-    height: 648px;
-    padding: 0 40px;
+    height: 648px;   
 }
 
 .quote_text {
     padding-top: 60px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
 }
 
 .quote_head, .quote_paragraph {
@@ -33,6 +41,115 @@
     word-spacing: 1px;
     line-height: 1.75;
     margin-top: 18px;
+}
+
+.quote_info_contact_wrapper {
+    display: flex;
+    flex-flow: row;
+    margin-left: 40px;
+}
+
+.contact_form_wrapper {
+    margin-top: 42px;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    max-width: 619px;
+}
+
+.contact_form_input {
+    box-sizing:border-box;
+    width: 619px;
+    height: 38px;
+    background-color: #d6564f;
+    border: none;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-bottom: 16px;    
+}
+
+.input_text {
+    height: 202px;
+    resize: none;
+    padding: 10px 0 0 15px;
+}
+
+.contact_form_btn {
+    background-color: #d6564f;
+    border: none;
+    width: 100px;
+    height: 33px;   
+    border-radius: 5px;
+    align-self: flex-end; 
+}
+
+.contact_form_btn:hover {
+    border: 2px solid #d84840;
+    color: #f89fa2;
+}
+
+.contact_form_input, .contact_form_input::placeholder, .contact_form_btn {
+    font-family: "Lato-Regular", sans-serif;
+    font-size: 12px;
+    color: #f48c8f;
+}
+
+.contact_information {
+    display: flex;
+    flex-direction: column;
+    color: #f0d8d9;
+    margin-top: 42px;
+    margin-left: 21px;
+}
+
+.contact_information_text>h3 {
+    font-family: "Lato-Black", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0px;
+    word-spacing: -1px;
+    margin: 0;
+}
+
+
+.contact_information_text>p {
+    font-family: "Lato-Regular", sans-serif;
+    font-size: 12px;
+    word-wrap: break-word;
+    line-height: 1.75;
+    margin: 8px 0 0;
+}
+
+.contact_information_contacts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 29px;
+}
+
+.contacts_link {
+    font-family: "Lato-Regular", sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #f0d8d9;
+    margin-bottom: 8px;
+}
+
+.contacts_img {
+    margin-right: 10px;
+}
+
+.img_loc {
+    margin-right: 14px;
+    margin-left: 2px;
+}
+
+.img_phone {
+    margin-right: 12px;
+}
+
+.link_mail {
+    margin: 0;
 }
 
 .line_quote {
